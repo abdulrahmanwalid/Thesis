@@ -3,7 +3,7 @@ source leaprc.protein.ff14SB
 source leaprc.DNA.OL15
 source leaprc.water.tip3p
 
-sys = loadpdb ul12_dna_prepared.pdb       # CHECK: file name
+sys = loadpdb ul12_dna_prepared.pdb
 
 check sys
 charge sys

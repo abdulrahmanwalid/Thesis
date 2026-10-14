@@ -7,7 +7,7 @@ source leaprc.water.tip3p
 LIG = loadmol2 AD51.mol2           # GAFF2 / AM1-BCC, residue name LIG
 loadamberparams AD51.frcmod        # from parmchk2
 
-sys = loadpdb sox_ad51_thr189_complex.pdb # CHECK: protein + DNA + Mg + LIG docked pose
+sys = loadpdb sox_ad51_thr189_complex.pdb # protein + DNA + Mg + LIG docked pose
 
 check sys
 charge sys
