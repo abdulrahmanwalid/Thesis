@@ -1,5 +1,4 @@
 # KSHV SOX (3POV) + DNA + 2 Mg2+ + AD51 docked at the catalytic Mg2+ site
-# Same file is used for the neutral and negative Mg-site poses: swap the mol2/frcmod/pdb names
 source leaprc.protein.ff14SB
 source leaprc.DNA.OL15
 source leaprc.gaff2
