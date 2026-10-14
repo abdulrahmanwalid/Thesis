@@ -8,7 +8,7 @@ sys = loadpdb ul12_dna_prepared.pdb       # CHECK: file name
 check sys
 charge sys
 
-solvatebox sys TIP3PBOX 12.0       # CHECK
+solvatebox sys TIP3PBOX 10.0
 addionsrand sys Na+ NA_COUNT Cl- CL_COUNT
 
 saveamberparm sys ul12_dna.prmtop ul12_dna.inpcrd

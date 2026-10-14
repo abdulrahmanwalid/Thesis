@@ -8,7 +8,7 @@ sys = loadpdb sox_baseline_prepared.pdb   # CHECK: file name (after pdb4amber)
 check sys
 charge sys
 
-solvatebox sys TIP3PBOX 12.0       # CHECK: box shape (box vs oct) and buffer
+solvatebox sys TIP3PBOX 10.0
 # SPLIT ions: fill counts after solvating (see README.md)
 addionsrand sys Na+ NA_COUNT Cl- CL_COUNT
 
