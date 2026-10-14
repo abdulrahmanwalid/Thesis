@@ -4,7 +4,7 @@ source leaprc.phosaa14SB           # PTR parameters
 source leaprc.DNA.OL15
 source leaprc.water.tip3p
 
-sys = loadpdb sox_ptr253_prepared.pdb     # CHECK: Tyr253 renamed to PTR in the PDB
+sys = loadpdb sox_ptr253_prepared.pdb     # Tyr253 renamed to PTR in the PDB
 
 check sys
 charge sys

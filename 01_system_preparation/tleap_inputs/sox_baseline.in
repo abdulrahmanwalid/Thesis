@@ -3,7 +3,7 @@ source leaprc.protein.ff14SB
 source leaprc.DNA.OL15
 source leaprc.water.tip3p          # also loads JC monovalent + Li/Merz divalent ion params
 
-sys = loadpdb sox_baseline_prepared.pdb   # CHECK: file name (after pdb4amber)
+sys = loadpdb sox_baseline_prepared.pdb
 
 check sys
 charge sys

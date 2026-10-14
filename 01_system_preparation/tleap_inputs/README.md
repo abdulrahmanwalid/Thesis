@@ -3,6 +3,8 @@
 Reconstructed tleap inputs for each simulation system (originally typed interactively).
 Run with `tleap -f <file>.in`.
 
+Input and output file names (PDB, mol2, frcmod, prmtop) are generic placeholders; replace them with your own.
+
 | File | System |
 |---|---|
 | `sox_baseline.in` | SOX + DNA + Mg2+ |
