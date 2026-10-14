@@ -1,0 +1,9 @@
+*.dcd
+*.nc
+*.rst7
+*.chk
+*.prmtop
+*.mp4
+cache/
+__pycache__/
+.ipynb_checkpoints/
